@@ -9,10 +9,16 @@ The **1st place winner** of the **4th On-device Visual Intelligence Competition*
 * Last name, First name
 
 ## Description
+<!-- Provide description of the model -->
 The model submitted for the OVIC and full implementation code for training, evaluation, and inference
 
 * OVIC track: Image Classification, Object Detection
-<!-- Provide description of the model -->
+
+### Algorithm
+<!-- Provide details of the algorithms used -->
+
+### Software
+<!-- Provide details of the software used -->
 
 ## Model
 |Model|Download|MD5 checksum|
