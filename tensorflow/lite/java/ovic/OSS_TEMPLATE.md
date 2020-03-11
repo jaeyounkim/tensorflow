@@ -57,10 +57,10 @@ The model tar file contains the followings:
 ## Validation accuracy
 
 ## Training
-Provide detailed training information (preprocessing, hyperparameters, random seeds, and environment) 
+<!-- Provide detailed training information (preprocessing, hyperparameters, random seeds, and environment) -->
 
 ## Validation
-Provide validation script with details of how to reproduce results.
+<!-- Provide validation script with details of how to reproduce results. -->
 
 ## Inference
 
@@ -69,7 +69,7 @@ Provide validation script with details of how to reproduce results.
 ### Postprocessing steps
 
 ## References
-Link to references
+<!-- Link to references -->
 
 ## License
 Apache License 2.0
