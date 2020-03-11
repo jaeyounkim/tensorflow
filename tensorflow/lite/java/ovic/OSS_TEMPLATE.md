@@ -2,7 +2,7 @@
 # Model Name
 
 ## Authors
-The **1st place winner** of the **4th On-device Visual Intelligence Competition** ([OVIC]((https://docs.google.com/document/d/1Rxm_N7dGRyPXjyPIdRwdhZNRye52L56FozDnfYuCi0k/edit#))) of Low-Power Computer Vision Challenge ([LPCVC](https://lpcv.ai/))
+The **1st place winner** of the **4th On-device Visual Intelligence Competition** ([OVIC](https://docs.google.com/document/d/1Rxm_N7dGRyPXjyPIdRwdhZNRye52L56FozDnfYuCi0k/edit#)) of Low-Power Computer Vision Challenge ([LPCVC](https://lpcv.ai/))
 
 * Last name, First name
 * Last name, First name
