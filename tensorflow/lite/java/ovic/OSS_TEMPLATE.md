@@ -17,10 +17,19 @@ The model submitted for the OVIC and full implementation code for training, eval
 ### Algorithm
 <!-- Provide details of the algorithms used -->
 
-### Software
-<!-- Provide details of the software used -->
+### Requirements
+<!-- 
+Provide details of the software required 
+Describe how to install requirements
+-->
 
-## Model
+To install requirements:
+
+```setup
+pip install -r requirements.txt
+```
+
+## Pre-trained Models
 |Model|Download|MD5 checksum|
 |-|-|-|
 |Model Name| Download Link (Size: KB)|MD5 checksum|
