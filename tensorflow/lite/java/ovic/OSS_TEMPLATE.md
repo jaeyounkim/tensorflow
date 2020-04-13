@@ -35,9 +35,9 @@ pip install -r requirements.txt
 ```
 
 ## Pre-trained Models
-|Model|Download|MD5 checksum|
-|-|-|-|
-|Model Name| Download Link (Size: KB)|MD5 checksum|
+| Model | Download | MD5 checksum |
+|-------|----------|--------------|
+| Model Name | Download Link (Size: KB) | MD5 checksum |
 
 The model tar file contains the followings:
 * Trained model checkpoint
