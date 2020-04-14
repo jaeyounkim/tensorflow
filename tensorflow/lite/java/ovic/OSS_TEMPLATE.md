@@ -6,11 +6,8 @@ You may need to add or remove a few sections depends on your needs.
 
 # Project Name
 
-This is the official implementation of our submission to the **4th On-device Visual Intelligence Competition** ([OVIC](https://docs.google.com/document/d/1Rxm_N7dGRyPXjyPIdRwdhZNRye52L56FozDnfYuCi0k/edit#)) of Low-Power Computer Vision Challenge ([LPCVC](https://lpcv.ai/))
-
 ## Authors
-
-The **1st place winner** of the **4th On-device Visual Intelligence Competition** ([OVIC](https://docs.google.com/document/d/1Rxm_N7dGRyPXjyPIdRwdhZNRye52L56FozDnfYuCi0k/edit#))
+The **1st place winner** of the **4th On-device Visual Intelligence Competition** ([OVIC](https://docs.google.com/document/d/1Rxm_N7dGRyPXjyPIdRwdhZNRye52L56FozDnfYuCi0k/edit#)) of Low-Power Computer Vision Challenge ([LPCVC](https://lpcv.ai/))
 
 * Last name, First name ([@GitHubUsername](https://github.com/username))
 * Last name, First name ([@GitHubUsername](https://github.com/username))
@@ -27,8 +24,8 @@ The model submitted for the OVIC and full implementation code for training, eval
 
 ## Requirements
 <!-- 
-Provide details of the software required 
-Describe how to install requirements
+• Provide description of the model 
+• Provide brief information of the algorithms used
 -->
 
 To install requirements:
@@ -50,7 +47,10 @@ The model tar file contains the followings:
 
 ## Results
 
-### Image Classification
+### [4th OVIC Public Ranked Leaderboard](https://lpcvc.ecn.purdue.edu/score_board_r4/?contest=round4)
+
+#### Image Classification (from the Leaderboard)
+
 | Rank | Username | Latency | Accuracy on Classified | # Classified | Accuracy/Time | Metric | Reference Accuracy |
 |------|----------|---------|------------------------|--------------|---------------|--------|--------------------|
 | 1 | Username | xx.x | 0.xxxx | 20000.0 | xxx | 0.xxxxx | 0.xxxxx |
@@ -61,22 +61,25 @@ The model tar file contains the followings:
  * **Accuracy/Time**: The accuracy divided by either the total inference time or the wall-time, whichever is longer
  * **Reference accuracy**: The reference accuracy of models from the Pareto optimal curve that have the same latency as the submission
 
-### Object Detection
+#### Object Detection
+
 | Rank | Username | Metric | Runtime | mAP over time | mAP of processed |
 |------|----------|--------|---------|---------------|------------------|
 | 1 | Username | 0.xxxxx | xxx.x | xxx | xxx |
 
+* **Metric**: COCO mAP computed on the entire minival dataset
+* **mAP over time**: COCO mAP on the minival dataset divided by latency per image
+* **mAP of processed**: COCO mAP computed only on the processed images
+
 ## Dataset
 <!-- 
-Provide detailed information of the dataset used
+• Provide detailed information of the dataset used
 -->
-
-## Validation accuracy
 
 ## Training
 <!-- 
-Provide detailed training information (preprocessing, hyperparameters, random seeds, and environment) 
-Please provide a command line example for training.
+• Provide detailed training information (preprocessing, hyperparameters, random seeds, and environment) 
+• Provide a command line example for training.
 -->
 
 Please run this command line for training.
@@ -87,8 +90,9 @@ python3 ...
 
 ## Evaluation
 <!-- 
-Provide evaluation script with details of how to reproduce results.
-Please provide a command line example for evaluation.
+• Provide evaluation script with details of how to reproduce results.
+• Describe data preprocessing / postprocessing steps
+• Provide a command line example for evaluation.
 -->
 
 Please run this command line for evaluation.
@@ -97,14 +101,21 @@ Please run this command line for evaluation.
 python3 ...
 ```
 
-## Inference
-
-### Preprocessing steps
-
-### Postprocessing steps
-
 ## References
 <!-- Link to references -->
 
 ## License
-Apache License 2.0
+<!-- 
+• Place your license text in a file named LICENSE.txt (or LICENSE.md) in the root of the repository.
+• Please also include information about your license in this README.md file.
+e.g., [Adding a license to a repository](https://help.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository)
+-->
+
+This project is licensed under the terms of the **Apache License 2.0**.
+
+## Citation
+<!-- 
+If you want to make your repository citable, please follow the instructions at [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
+-->
+
+If you want to cite this repository in your research paper, please use the following information.
