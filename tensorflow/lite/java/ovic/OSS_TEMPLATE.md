@@ -6,12 +6,15 @@ You may need to add or remove a few sections depends on your needs.
 
 # Model, Paper, or Project Name
 
-## Authors
-The **1st place winner** of the **4th On-device Visual Intelligence Competition** ([OVIC](https://docs.google.com/document/d/1Rxm_N7dGRyPXjyPIdRwdhZNRye52L56FozDnfYuCi0k/edit#)) of Low-Power Computer Vision Challenge ([LPCVC](https://lpcv.ai/))
+This is the official implementation of our submission to the **4th On-device Visual Intelligence Competition** ([OVIC](https://docs.google.com/document/d/1Rxm_N7dGRyPXjyPIdRwdhZNRye52L56FozDnfYuCi0k/edit#)) of Low-Power Computer Vision Challenge ([LPCVC](https://lpcv.ai/))
 
-* Last name, First name
-* Last name, First name
-* Last name, First name
+## Authors
+
+The **1st place winner** of the **4th On-device Visual Intelligence Competition** ([OVIC](https://docs.google.com/document/d/1Rxm_N7dGRyPXjyPIdRwdhZNRye52L56FozDnfYuCi0k/edit#))
+
+* Last name, First name ([@GitHubUsername](https://github.com/username))
+* Last name, First name ([@GitHubUsername](https://github.com/username))
+* Last name, First name ([@GitHubUsername](https://github.com/username))
 
 ## Description
 <!-- Provide description of the model -->
@@ -35,6 +38,7 @@ pip install -r requirements.txt
 ```
 
 ## Pre-trained Models
+
 | Model | Download | MD5 checksum |
 |-------|----------|--------------|
 | Model Name | Download Link (Size: KB) | MD5 checksum |
@@ -47,10 +51,11 @@ The model tar file contains the followings:
 ## Benchmark Results
 
 ### [4th OVIC Public Ranked Leaderboard](https://lpcvc.ecn.purdue.edu/score_board_r4/?contest=round4)
+
 #### Image Classification (from the Leaderboard)
-|Rank|Username|Latency|Accuracy on Classified|# Classified|Accuracy/Time|Metric|Reference Accuracy|
-|-|-|-|-|-|-|-|-|
-|1|Username|xx.x|0.xxxx|20000.0|xxx|0.xxxxx|0.xxxxx|
+| Rank | Username | Latency | Accuracy on Classified | # Classified | Accuracy/Time | Metric | Reference Accuracy |
+|------|----------|---------|------------------------|--------------|---------------|--------|--------------------|
+| 1 | Username | xx.x | 0.xxxx | 20000.0 | xxx | 0.xxxxx | 0.xxxxx |
 
  * **Metric**: Accuracy improvement over the reference accuracy from the Pareto optimal curve
  * **Accuracy on Classified**: The accuracy in [0, 1] computed based only on the images classified within the wall-time
@@ -59,12 +64,9 @@ The model tar file contains the followings:
  * **Reference accuracy**: The reference accuracy of models from the Pareto optimal curve that have the same latency as the submission
 
 #### Object Detection
-|Rank|Username|Metric|Runtime|mAP over time|mAP of processed|
-|-|-|-|-|-|-|
-|1|Username|0.xxxxx|xxx.x|xxx|xxx|
-* **Metric**: COCO mAP computed on the entire minival dataset
-* **mAP over time**: COCO mAP on the minival dataset divided by latency per image
-* **mAP of processed**: COCO mAP computed only on the processed images
+| Rank | Username | Metric | Runtime | mAP over time | mAP of processed |
+|------|----------|--------|---------|---------------|------------------|
+| 1 | Username | 0.xxxxx | xxx.x | xxx | xxx |
 
 ## Dataset (Train and validation)
 
