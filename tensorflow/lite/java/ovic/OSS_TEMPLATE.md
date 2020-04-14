@@ -22,10 +22,10 @@ The model submitted for the OVIC and full implementation code for training, eval
 
 * OVIC track: Image Classification, Object Detection
 
-### Algorithm
+## Algorithm
 <!-- Provide details of the algorithms used -->
 
-### Requirements
+## Requirements
 <!-- 
 Provide details of the software required 
 Describe how to install requirements
@@ -48,11 +48,9 @@ The model tar file contains the followings:
 * Frozen trained model
 * TensorFlow Lite model
 
-## Benchmark Results
+## Results
 
-### [4th OVIC Public Ranked Leaderboard](https://lpcvc.ecn.purdue.edu/score_board_r4/?contest=round4)
-
-#### Image Classification (from the Leaderboard)
+### Image Classification
 | Rank | Username | Latency | Accuracy on Classified | # Classified | Accuracy/Time | Metric | Reference Accuracy |
 |------|----------|---------|------------------------|--------------|---------------|--------|--------------------|
 | 1 | Username | xx.x | 0.xxxx | 20000.0 | xxx | 0.xxxxx | 0.xxxxx |
@@ -63,20 +61,41 @@ The model tar file contains the followings:
  * **Accuracy/Time**: The accuracy divided by either the total inference time or the wall-time, whichever is longer
  * **Reference accuracy**: The reference accuracy of models from the Pareto optimal curve that have the same latency as the submission
 
-#### Object Detection
+### Object Detection
 | Rank | Username | Metric | Runtime | mAP over time | mAP of processed |
 |------|----------|--------|---------|---------------|------------------|
 | 1 | Username | 0.xxxxx | xxx.x | xxx | xxx |
 
-## Dataset (Train and validation)
+## Dataset
+<!-- 
+Provide detailed information of the dataset used
+-->
 
 ## Validation accuracy
 
 ## Training
-<!-- Provide detailed training information (preprocessing, hyperparameters, random seeds, and environment) -->
+<!-- 
+Provide detailed training information (preprocessing, hyperparameters, random seeds, and environment) 
+Please provide a command line example for training.
+-->
 
-## Validation
-<!-- Provide validation script with details of how to reproduce results. -->
+Please run this command line for training.
+
+```shell
+python3 ...
+```
+
+## Evaluation
+<!-- 
+Provide evaluation script with details of how to reproduce results.
+Please provide a command line example for evaluation.
+-->
+
+Please run this command line for evaluation.
+
+```shell
+python3 ...
+```
 
 ## Inference
 
