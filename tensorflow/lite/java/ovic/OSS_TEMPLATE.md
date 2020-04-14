@@ -1,7 +1,7 @@
 <!-- 
-This is a README.md template we encourage you to use when you release your model.
-There are general sections we added to this template for various ML models.
-You may need to add or remove a few sections depends on your needs.
+• This is a README.md template we encourage you to use when you release your model.
+• There are general sections we added to this template for various ML models.
+• You may need to add or remove sections depending on your needs.
 -->
 
 # Project Name
